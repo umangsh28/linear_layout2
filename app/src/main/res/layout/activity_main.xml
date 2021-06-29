@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/and1"
+        android:layout_marginTop="49dp"
+        android:text="Hello AND 03"
+        android:textColor="@color/white"
+        android:textSize="29dp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:layout_width="244dp"
+        android:layout_height="71dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="89dp"
+        android:paddingTop="23dp"
+        android:paddingStart="20dp"
+        android:text="Welcome to Layouts"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="85dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/ellipse_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="197dp"
+        />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="34dp"
+        android:text="Name: Umang Sharma"
+        android:textSize="19dp"
+        android:layout_marginTop="310dp"
+        android:textColor="#FF0000"
+        />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="34dp"
+        android:text="Age: 25"
+        android:textSize="20dp"
+        android:layout_marginTop="340dp"
+        android:textColor="#FF0000"
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingStart="20dp"
+        android:layout_marginTop="310dp"
+        app:srcCompat="@drawable/ic_name_1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="183dp"
+        android:layout_height="39dp"
+        android:background="#C4C4C4"
+        android:text=""
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="485dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginLeft="187dp"
+        android:layout_marginBottom="151dp"
+        />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="166dp"
+        android:layout_height="22dp"
+        android:background="#C4C4C4"
+        android:text=""
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="550dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginLeft="187dp"
+        android:layout_marginBottom="112dp"
+        android:layout_alignParentBottom="@id/textView"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="143dp"
+        android:layout_height="15dp"
+        android:layout_alignParentBottom="@id/textView2"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="112dp"
+        android:background="#C4C4C4"
+        android:text="" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="410dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="690dp"
+        android:background="#00FF00"
+        android:text="Next"
+        android:layout_marginBottom="0dp"
+        android:textColor="@color/black"
+        android:textSize="23dp" />
+
+
+</RelativeLayout>
